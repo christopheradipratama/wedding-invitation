@@ -163,6 +163,7 @@ export const RightSection = () => {
                 </Text>
                 <Box
                   display="flex"
+                  marginTop="14rem"
                   justifyContent="flex-end"
                   width="100%"
                   onClick={scrollToBottom}
@@ -170,7 +171,6 @@ export const RightSection = () => {
                 >
                   <Text
                     as="b"
-                    marginTop="18rem"
                     fontSize="xl"
                     fontFamily="Poppins"
                     textAlign="right"
@@ -185,14 +185,14 @@ export const RightSection = () => {
             <Box
               flex="1"
               width="100%"
-              height="100vh"
+              height="120vh"
               bg="#FFF"
               padding="2rem"
               display="flex"
               flexDirection="column"
               alignContent="center"
               justifyContent="center"
-              marginTop="2rem"
+              marginY="2rem"
             >
               <Text
                 as="b"
