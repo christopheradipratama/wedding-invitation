@@ -168,6 +168,9 @@ export const RightSection = () => {
                   width="100%"
                   onClick={scrollToBottom}
                   cursor="pointer"
+                  position="absolute"
+                  bottom="14"
+                  right="4"
                 >
                   <Text
                     as="b"
